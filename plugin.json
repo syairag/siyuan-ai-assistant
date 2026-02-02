@@ -1,0 +1,30 @@
+{
+  "name": "siyuan-ai-assistant",
+  "author": "Toby",
+  "url": "https://github.com/your/repo",
+  "version": "1.0.0",
+  "displayName": {
+    "default": "SiYuan Knowledge AI",
+    "zh_CN": "思源知识库AI助手"
+  },
+  "description": {
+    "default": "AI Assistant for your knowledge base with RAG support",
+    "zh_CN": "基于本地笔记的智能问答助手，支持全量同步、增量更新与联网增强。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": ""
+  },
+  "keywords": ["ai", "chat", "rag", "search", "llm"],
+  "backends": [],
+  "frontends": [
+    {
+      "script": "index.js"
+    }
+  ]
+}
